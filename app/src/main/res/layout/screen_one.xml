@@ -51,8 +51,8 @@
         android:text="Star Conunt"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/scrollNameRepositorio" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollNameRepositorio"
+        tools:layout_editor_absoluteX="188dp" />
 
     <TextView
         android:id="@+id/autor_name"
@@ -94,16 +94,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollNameRepositorio"
         app:srcCompat="@drawable/icons_fork_fork" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="15dp"
-        android:src="@tools:sample/avatars"
-        app:layout_constraintStart_toEndOf="@+id/f_count"
-        app:layout_constraintTop_toBottomOf="@+id/scrollNameRepositorio"
-        tools:srcCompat="@android:drawable/btn_star_big_on" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
